@@ -1,0 +1,231 @@
+.header__menu{
+    display: flex;
+    align-items: center;
+    top: 0;
+    gap: 10px;
+    margin-left: 25px;
+    height: 60px;
+
+    
+}
+
+.header__menu__items{
+    list-style: none;
+    display: flex;
+    align-items: right;
+    margin-left:1000px;
+    gap: 10px
+ 
+}
+
+.header__menu__link{
+    text-decoration: none;
+   
+}
+
+.presentacion{
+    display: flex;
+    padding: 3% 0% 0% 28%;
+    gap: 50px
+}
+
+.sobremi{
+    padding: 0% 0% 3% 28%;
+    
+}
+
+
+.skills__lista{
+    display: flex;
+    list-style: none;
+    padding: 3% 0% 3% 28%;
+    gap: 50px;
+    
+}
+
+.hobbies__lista{
+    display: flex;
+    list-style: none;
+    padding: 3% 0% 3% 28%;
+    gap: 50px;
+}
+
+
+
+.lista__items{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.hobbies__items{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0% 3% 28%;
+    
+}
+
+.url{
+   margin-left: 250px;
+}
+
+.footer{
+    padding: 1% 0% 1% 43%;
+
+}
+
+
+@media(max-width:834px){
+    .footer{
+        background-color: #3ab0d0;
+        padding: 1% 0% 1% 32%;
+    }
+    
+    .presentacion{
+        display: flex;
+        padding: 3% 0% 0% 8%;
+        gap: 50px
+    }
+    
+    .sobremi{
+        padding: 0% 0% 3% 8%;
+        
+    }
+    
+    
+    .skills__lista{
+        display: flex;
+        list-style: none;
+        padding: 3% 0% 3% 8%;
+        gap: 50px;
+        
+    }
+    
+    .hobbies__lista{
+        display: flex;
+        list-style: none;
+        padding: 3% 0% 3% 8%;
+        gap: 50px;
+    }
+
+    .proyecto{
+        padding: 2% 0% 3% 8%;
+        
+    }
+    
+    .header__menu__items{
+        display: flex;
+        margin-left:250px;
+     
+    }
+
+    .header{
+        background-color: #72bcd9;
+        font-family: "raleway";
+    
+    }
+
+    .boton__link{
+        margin-left: 250px;
+    }
+
+}
+
+@media(max-width:430px){
+
+    
+    .presentacion{
+        padding: 2% 0% 0% 2%;
+        gap: 10px;
+        font-size: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+       margin-bottom: 10px;
+
+    }
+    
+    .sobremi{
+        padding: 0% 0% 3% 2%;
+        font-size: 50%;
+
+    }
+    
+    
+    .skills__lista{
+        padding: 3% 0% 3% 2%;
+        font-size: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        gap: 5%;
+        background-color: #9ad9e1;
+    
+       
+        
+    }
+    
+    .hobbies__lista{
+        padding: 3% 0% 3% 2%;
+        font-size: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5%;
+        
+    }
+
+    .proyecto{
+        padding: 2% 0% 2% 1%;
+        font-size: 70%;
+        
+    }
+    
+    .header__menu__items{
+        margin-left:20px;
+     
+    }
+
+    .header{
+        background-color: #46b79b;
+        font-size: 80%;
+    
+    }
+
+    .boton__link{
+        margin-left: 250px;
+    }
+
+    .footer{
+        background-color: #5baa96;
+        padding: 1% 0% 1% 32%;
+        font-size: 70%;
+    }
+
+    .proyecto__imagen{
+        width: 300px;
+        height:200px;
+    }
+
+    .boton__link{
+        margin-left: 180px;
+    }
+
+    .header__menu{
+    
+        margin-left: 10px;
+        font-size: 80%;
+  
+        
+    }
+
+}
